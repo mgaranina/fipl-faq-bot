@@ -1,0 +1,24 @@
+version: '3.1'
+
+nlu:
+  - intent: hello
+    examples: |
+      - start
+      - привет
+  - intent: thank_you
+    examples: |
+      - спасибо
+      - благодарю
+  - intent: dont_understand
+    examples: |
+      - бла бла
+      - как дела
+      - у что у меня для тебя есть
+      - кто ты
+      - сколько стоит фипл?
+  - intent: goodbye
+    examples: |
+      - пока
+      - чао
+      - до свидания
+      - увидимся

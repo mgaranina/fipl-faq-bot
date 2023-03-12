@@ -1,0 +1,15 @@
+version: "3.1"
+
+stories:
+
+- story: story
+  steps:
+  - intent: hello
+  - action: utter_hello
+  - intent: thank_you
+  - action: utter_thank_you
+  - intent: dont_understand
+  - action: utter_dont_understand
+  - intent: goodbye
+  - action: utter_goodbye
+
