@@ -22,7 +22,7 @@ rules:
       - intent: goodbye
       - action: utter_goodbye
 
-- rule: answer
-  steps:
-  - intent: faq
-  - action: utter_faq
+  - rule: answer
+    steps:
+    - intent: faq
+    - action: utter_faq
